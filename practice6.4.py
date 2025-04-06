@@ -7,8 +7,8 @@ def is_lucky_ticket(ticket_number):
     half_length = len(ticket_number) // 2     # Определяем длину половины
 
 
-    first_half = ticket_number[:half_length]
-    second_half = ticket_number[half_length:]     # Разделяем номер на две половины
+    first_half = ticket_number[:half_length]    #срез строки. Все числа до и все числа после половины
+    second_half = ticket_number[half_length:]
 
 
     sum_first_half = sum(int(digit) for digit in first_half)     # Считаем суммы в каждой половине
