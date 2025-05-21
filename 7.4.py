@@ -11,7 +11,7 @@ print("\nСпортивная команда:", team)
 print("\nДлина кортежа команды:", len(team))
 
 sorted_team = tuple(sorted(team))
-print("\nОтсортированная команда:", sorted_team) # по алфавиту
+print("\nОтсортированная команда:", sorted_team) # по алфавиту.
 
 count_ivanov = team.count('Иванов')
 if count_ivanov > 0:
